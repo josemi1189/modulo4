@@ -18,7 +18,6 @@ const reset = () => {
 reset();
 
 
-
 const downNumber = () :void => {
    let valor = parseInt(monitor.innerHTML);
    valor = valor - 1;
