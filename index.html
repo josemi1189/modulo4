@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div id="app">
+      
+      <div id="container">
+        <div id="tit-monitor">TURNO</div>
+        <div id="monitor"></div>
+        <div id="control">
+          <div>
+            <button id="resta">&lt;</button>
+            <button id="suma">&gt;</button>
+          </div>
+          <div>
+            <input type="number" id="elige-puesto" placeholder="Ir a"/>
+          </div>
+          <div>
+            <button id="btn-goto" disabled>Ir al puesto</button>
+            <button id="reset">Reset</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
